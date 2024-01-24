@@ -95,7 +95,7 @@ public class Runigram {
 		Color[][] flippedHorizintal = new Color[rows][cols];
 		for (int i = 0; i < image.length; i++) {
 			for (int j = 0; j < image[i].length; j++) {
-				flippedHorizintal[i][image.length - 1 - j] = image[i][j];
+				flippedHorizintal[i][image[0].length - 1 - j] = image[i][j];
 
 			}
 
